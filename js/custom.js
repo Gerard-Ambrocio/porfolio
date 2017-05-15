@@ -23,7 +23,7 @@
     });
     
     // About section scroll
-    $(".overlay-detail a").on('click', function(event) {
+    $(".overlay a").on('click', function(event) {
         event.preventDefault();
         var hash = this.hash;
         $('html, body').animate({
@@ -49,3 +49,4 @@
     });
     
 })(jQuery);
+

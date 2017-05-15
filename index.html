@@ -29,19 +29,19 @@
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lauraMenu">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gerard-menu">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#main-header">Gerard</a>
             </div>
-            <div class="collapse navbar-collapse" id="lauraMenu">
+            <div class="collapse navbar-collapse" id="gerard-menu">
               <ul class="nav navbar-nav navbar-right navbar-border">                           
                 <li><a href="#social">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#contact">Contact Me</a></li>
               </ul>
             </div>
           </div>
@@ -49,15 +49,14 @@
         </header>
       <div class="wrapper">
 
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="profile-panel center-block ">
+          <div class="col-xs-2"></div>
+            <div class="profile-panel center-block col-xs-8 ">
                 
                <div class="col-sm-6 col-xs-12 ">
                   
-                  <img src="img/avatar.png" class="img-responsive center-block avatar"> 
-
-             
+                  <img src="img/avatar.png" class="img-responsive center-block avatar">           
                 
                </div>
 
@@ -70,10 +69,10 @@
                     <br>
                     <p><strong>Phone:</strong><br> 0917-591-6904</p>
                     <br>
-                    <p><strong>Address:</strong><br id="social"> Quezon City, Philippines</p>
-                    
+                    <p><strong>Address:</strong><br> Quezon City, Philippines</p>
+                   
                   </div>
-                 
+                  <br id="social">
                </div>
 
 
@@ -89,9 +88,10 @@
       </div>
 
         
-      <div  class="container-fluid social text-center">
-
-        <div class="social-btn-area center-block ">
+      <div  class="container-fluid text-center">
+       <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="social-btn-area center-block col-xs-8">
         <ul class="social-block list-inline">
           <li class="social-btn">
             <a href="https://www.facebook.com/regineannblanco" target="_blank">
@@ -110,11 +110,12 @@
               <i class="fa fa-github fa-2x" aria-hidden="true"></i>
             </a>  
           </li>         
-        </ul>   
+        </ul>
+         </div>   
         </div>
 
         <div class="download-panel">
-          <button class="btn btn-large btn-danger active download-btn"> DOWNLOAD MY RESUME </button>
+          <button class="btn btn-large btn-default download-btn"> DOWNLOAD MY RESUME </button>
         </div> 
       </div> 
      
@@ -149,71 +150,86 @@
 
 
   </section>
-  <section id="education" class="section-padding wow fadeInUp delay-05s">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="title text-center">Let's <span class="deco">See</span> My Work</h2>
-        </div>
-        <div class="col-md-12">
-          <div id="myGrid" class="grid-padding">
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-          </div>
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/port03.jpg" class="img-responsive">
-          </div>
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port03.jpg" class="img-responsive">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+ 
   <section id="experience" class="section-padding wow fadeInUp delay-05s">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title text-center">Let's <span class="deco">See</span> My Work</h2>
+          <h2 class="title text-center">My <span class="deco">Experiences</span></h2>
         </div>
         <div class="col-md-12">
-          <div id="myGrid" class="grid-padding">
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
+
+
+
+          <ul class="nav nav-pills nav-justified">
+              
+              <li><a data-toggle="pill" href="#naval">Naval Architecture</a></li>
+              <li class="active"><a data-toggle="pill" href="#web">Web Development</a></li>
+              <li><a data-toggle="pill" href="#education">Education</a></li>    
+            </ul>
+            
+            <div class="tab-content">
+              <div id="naval" class="tab-pane fade">
+                <h3>Naval Architecture</h3>
+                <br>
+                  <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-4">
+                      <img src="img/data-msg.png" class="img-responsive logo">
+                    </div>
+                    <div class="col-xs-7">
+                       <p>Tuitt</p> 
+                    </div>
+                  </div>       
+              </div>
+              <div id="web" class="tab-pane fade in active">
+                <h3>Web Development</h3>
+                  <br>
+                  <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-4">
+                      <img src="img/tuitt.png" class="img-responsive logo">
+                    </div>
+                    <div class="col-xs-7">
+                       <p>Tuitt</p> 
+                    </div>
+                  </div>
+                
+                    <div class="overlay text-center">
+                      <a href="#portfolio"><i class="fa fa-angle-down"></i></a>
+                    </div>                    
+                  
+              </div>                  
+              </div>
+
+              <div id="education" class="tab-pane fade">
+                <h3>Education</h3>
+                <br>
+                  <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-4">
+                      <img src="img/ncl.png" class="img-responsive  logo">
+                    </div>
+                    <div class="col-xs-7">
+                       <p></p> 
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-4">
+                      <img src="img/dlsu.png" class="img-responsive  logo">
+                    </div>
+                    <div class="col-xs-7">
+                       <p></p> 
+                    </div>
+                  </div>
+              </div>    
+            </div>
           </div>
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/port03.jpg" class="img-responsive">
-          </div>
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port03.jpg" class="img-responsive">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-          </div>
-          </div>
+         
+
+
         </div>
       </div>
     </div>
@@ -226,29 +242,7 @@
           <h2 class="title text-center">Let's <span class="deco">See</span> My Work</h2>
         </div>
         <div class="col-md-12">
-          <div id="myGrid" class="grid-padding">
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-          </div>
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/port03.jpg" class="img-responsive">
-          </div>
-          <div class="col-md-4 col-sm-4 padding-right-zero">
-            <img src="img/port01.jpg" class="img-responsive">
-            <img src="img/portfolio01.jpg" class="img-responsive">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port03.jpg" class="img-responsive">
-            <img src="img/portfolio02.jpg" class="img-responsive">
-            <img src="img/port02.jpg" class="img-responsive">
-          </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -332,16 +326,9 @@
       <div class="row">
           <div class="col-md-6">
               <div class="footer">
-                  © Copyright Laura Theme. All Rights Reserved
-                    <div class="credits">
-                        <!-- 
-                            All the links in the footer should remain intact. 
-                            You can delete the links only if you purchased the pro version.
-                            Licensing information: https://bootstrapmade.com/license/
-                            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Laura
-                        -->
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
-                    </div>
+               <div class="overlay text-center">
+                      <a href="#main-header"><i class="fa fa-angle-up"></i></a>
+                    </div> 
               </div>
           </div>
           <div class="col-md-6 text-right">
@@ -384,3 +371,6 @@
     
   </body>
 </html>
+
+
+
