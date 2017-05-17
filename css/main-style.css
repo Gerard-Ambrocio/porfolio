@@ -1,5 +1,8 @@
 .top-nav-collapse {
-    background: rgba(	153, 0, 0,0.9)
+    background: rgba(153, 0, 0,0.9);
+    -moz-box-shadow: 1px 1px 3px 2px #990000;
+  -webkit-box-shadow: 1px 1px 3px 2px #990000;
+  box-shadow:         1px 1px 3px 2px #990000;
 }
 
 .bg-color{
@@ -111,13 +114,19 @@
 	margin: 0px 5px;
 }
 .nav-pills>li.active>a{
-	background-color: #333;
-	color:black;
+	background-color: #b31010;
+	color:white;
 }
 
 .nav-pills>li.active>a:link{
 	background-color:#b31010;
 	color:white;
+}
+.nav-pills>li.active>a:focus{
+	background-color:#b31010;
+}
+.nav-pills>li.active>a:hover{
+	background-color:#b31010;
 }
 
 .logo{
@@ -130,18 +139,58 @@
 
 .overlay a i {
     text-align: center;   
-    font-size: 24px;
+    font-size: 64px;
     color: white;
-    width: 50px;
-	height: 50px;
-	border: 1px solid black;
-	line-height: 45px;
+    width: 100px;
+	height: 100px;
+	/*border: 1px solid black;*/
+	line-height: 95px;
 	border-radius: 50%;
 	background-color: #b31010;
 }
 
 .overlay i:hover{
-	background-color: grey;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
 }
 
+
+.list-group > div {
+	padding: 0;
+}
+
+.list-group-item{
+	height: 75px;
+}
+
+.exp-description > p{
+	padding-top: 10px;
+}
+
+/*---------------------------*/
+
+.carousel{
+	height: 300px;
+	width: 360px;
+	margin: 0 auto;
+}
+
+.fa-caret-square-o-left,.fa-caret-square-o-right{
+	color:#b31010;
+}
+
+.live{
+	color:#b31010;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*---------------------------*/
+
+#contact .btn-primary:hover{
+	background-color: #428bca;
+	border-color: #428bca;
+}
 
